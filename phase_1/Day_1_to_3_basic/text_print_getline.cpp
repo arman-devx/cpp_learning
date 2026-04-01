@@ -1,11 +1,11 @@
 #include <iostream> //Includes Input-Output library for cout 
 using namespace std; // Allowed use cout without std::
 
-/* Programe : User name (getline) + city print 
+/* Program : User name (getline) + city print 
    Concept : cout, getline, variable
 */
 
-int main () // Enter point where programe execution
+int main () // entry point of program execution
 {
     string name, city; // Variable to store input text from user
 
@@ -19,8 +19,8 @@ int main () // Enter point where programe execution
     cout << "Enter Your city : " ;
     getline(cin, city);
 
-    cout << "Hello, " << name << endl << "You are live " << city ;
+    cout << "Hello, " << name << endl << "You live in " << city ;
 
-    return 0; // Programe end succesfully
+    return 0; // Programe end successfully
     
 }
