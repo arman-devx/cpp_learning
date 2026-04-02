@@ -1,20 +1,22 @@
 #include <iostream> // includes input-output library for cout
-using namespace std; // allowed use cout without std::
+using namespace std; // allows use of cout without std::
 
-// program : 2 numbers ? division (double use)
-// concept : cout, cin, double, division = divident / divisor 
+// program : 2 numbers → division (double use)
+// concept : cout, cin, double, division = dividend / divisor 
 
-int main () // entery point programe 
+int main () // entry point of program
 {
-    double division, divident, divisor; // variable to store input number 
+    double division, dividend, divisor; // variables to store input numbers 
 
-    cout << "Enter divident : ";
-    cin >> divident ;
-    cout << "Enter divident : ";
-    cin >> divisor ;
+    cout << "Enter dividend : ";
+    cin >> dividend;
+    
+    cout << "Enter divisor : ";
+    cin >> divisor;
 
-    division = divident / divisor ;
+    division = dividend / divisor;
 
-    cout << "division is : " << division ;
+    cout << "Division is : " << division;
 
+    return 0 ;
 }
