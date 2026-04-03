@@ -4,7 +4,7 @@ using namespace std; // allows use of cout without std::
 // program : 2 numbers → division (double use)
 // concept : cout, cin, double, division = dividend / divisor 
 
-int main () // entry point of program
+int main () // entry point of program execution 
 {
     double division, dividend, divisor; // variables to store input numbers 
 
