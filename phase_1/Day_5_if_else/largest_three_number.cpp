@@ -1,5 +1,8 @@
 #include <iostream>
 using namespace std;
+/*
+   program : find largest of three numbers
+*/
 int main () // allow use of standard library names without std::
 {
     int num1, num2, num3 ;
