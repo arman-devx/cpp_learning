@@ -11,7 +11,7 @@ int main () // allow use of standard library names without std::
     cin >> num1 ;
     cin >> num2 ;
     cin >> num3 ;
-    if (cin.fail()) // cin.fail() : check if use entered invlid input (e.g., text instead of number)
+    if (cin.fail()) // cin.fail() : check if user entered invlid input (e.g., text instead of number)
     {
         cout << "Error: Invalid! input, Please enter a number" << endl ;
     } else if (num1 >= num2 && num1 >= num3)
