@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 /*
-  program : print 1 to 100 number for for loop
+  program : print 1 to 100 number form for loop
 */
 int main()
 {
