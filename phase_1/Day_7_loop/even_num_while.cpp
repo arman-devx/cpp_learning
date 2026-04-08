@@ -8,14 +8,15 @@ using namespace std;
 int main ()
 {
     int i = 1;
-    while (i <= 100)
+    while (i <= 100) // condition
     {
         
-        if(i % 2 == 0)
+        if(i % 2 == 0) //check even numbers 
         {
-            cout << i << endl;
+            cout << i << endl; // print only even number
         }
         i++ ;
         
     }
+    return 0;
 }
